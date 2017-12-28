@@ -167,6 +167,8 @@ import './index.css'
 
  // 5
  // Error, cannot '.map' items(unreferenced)
+// May have solved the error but not sure
+// I think the error is because swapi is not allowing the non-https to access json.
 class App extends React.Component{
 	constructor(){
 		super();
